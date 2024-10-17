@@ -1,0 +1,10 @@
+let car = {
+  type: "Honda" 
+  model: "Civic" 
+  color: "Green"
+};
+
+console. log (typeof car); // Output: "object"
+
+car. type = "Honda";
+console. log(car); / / Output: { type: 'Honda', model: 'Civic', color: 'Green' }
